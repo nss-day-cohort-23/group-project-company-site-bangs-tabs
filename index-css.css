@@ -55,8 +55,11 @@ a {
     position: fixed;
     width: 100%;
     left: 0;
-    background-image: url(/fruit.jpg);
+    top: 0;
+    background-image: url(img/fruit.jpg);
     background-position: 100px;
+    
+    
 
  }
 
