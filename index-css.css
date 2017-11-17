@@ -1,0 +1,116 @@
+a {
+    text-decoration:none;
+    color:#cc0000;
+
+ }
+
+.button,div.container {
+    text-align: center;
+    padding-top: 50px;
+
+ }
+
+ .button {
+         background-color: grey;
+         border:2px solid black;
+         border-radius:8px;
+         color:#fff;
+         padding: 15px;
+          margin: 20px;
+         cursor: pointer;
+
+
+ }
+
+ .nav-bar {
+     position: fixed;
+     top: 5;
+     width: 100%;
+ }
+
+ a.button:hover {
+     background-color: black;
+ }
+
+ div.container {
+    width:100%;
+    float: left;
+
+ }
+
+ h1 {
+    text-align: center;
+     font-size: 500%;
+     color: black;
+     font-weight: 1000%;
+     text-shadow: -5px -5px 0 white;
+
+
+ }
+
+ header {
+
+    background-color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    background-image: url(/fruit.jpg);
+    background-position: 100px;
+
+ }
+
+a.fa {
+    padding: 5px;
+    font-size: large;
+    width: 40px;
+    margin: 50px;
+    text-align: center;
+    border-radius: 15%;
+}
+
+
+ .fa:hover {
+     opacity: 2.0;
+ }
+
+ .fa-facebook {
+     background: blue;
+     color: white;
+ }
+
+ .fa-twitter {
+     background: lightblue;
+     color: white;
+ }
+
+ .fa-snapchat {
+     background: yellow;
+     color: white;
+ }
+
+ .fa-instagram {
+     background: red;
+     color: white;
+ }
+
+ body {
+    background-color: rgb(176, 255, 209);
+ }
+
+ .wrapper h2 {
+     padding-top: 400px;
+     text-align: center;
+     font-family: 'Gloria Hallelujah', cursive;
+
+ }
+
+ h3 {
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+ }
+
+ img.center {
+     display: block;
+     margin: 0 auto;
+ }
