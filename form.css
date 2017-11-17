@@ -3,9 +3,13 @@ body {
     margin:50px 0px; 
     padding:0px;
     text-align:center;
-    align:center;
     font-family: 'Raleway', sans-serif;
     }
+.inputform{
+    background-color: forestgreen;
+    position: relative;
+    padding-top: 325;
+}
     
 img.resize {
         max-width:10%;
