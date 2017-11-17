@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(176, 255, 209);
+    margin:50px 0px; 
+    padding:0px;
+    text-align:center;
+    align:center;
+    font-family: 'Raleway', sans-serif;
+    }
+    
+img.resize {
+        max-width:10%;
+        max-height:10%;
+      }
