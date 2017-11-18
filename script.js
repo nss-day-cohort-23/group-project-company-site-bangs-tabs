@@ -3,7 +3,7 @@ var myfruit0 = {
     name:"Geometric Apple",
     description:"A beautifully carved apple with a geometric design.",
     price:"$3.00",
-    location: "jbImg/product1.jpg",
+    location: "jbImg/product1.png",
 }
 
  var myfruit1 = {
@@ -38,7 +38,7 @@ var myfruit5 = {
     name:"Floral Cantaloupe",
     description:"Nothing more, nothing less.",
     price:"$6.75",
-    location:"URL(jbImg/product6.jpg)",
+    location:"jbImg/product6.jpg",
 }
 
 var myfruit6 = {
@@ -61,7 +61,7 @@ var fruitArray = [myfruit0, myfruit1, myfruit2, myfruit3, myfruit4, myfruit5, my
 let htmlString = '';
 
 for (let i = 0; i < fruitArray.length; i++) {
-  htmlString += `<div class="card"<p>location: <img src=${fruitArray[i].location}></p>
+  htmlString += `<div class="card"<p><img src=${fruitArray[i].location}></p>
   <p>Name: ${fruitArray[i].name}</p>
   <p>Decription: ${fruitArray[i].description}</p>
   <p>Price: ${fruitArray[i].price}</p></div>`;
