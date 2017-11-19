@@ -4,8 +4,9 @@ body {
 }
 
 .cont1 {
+    padding-top: 60%;
     display: flex;
-    padding:5%;
+    
 }
 p {
     font-size: 1em;

@@ -1,58 +1,58 @@
 
 var myfruit0 = {
-    name:"Apple",
-    description:"A beautifully carved apple with a geometric design..",
+    name:"Geometric Apple",
+    description:"A beautifully carved apple with a geometric design.",
     price:"$3.00",
-    location:"URL(jbImg/product1.jpg)",
+    location: "jbImg/product1.png",
 }
 
  var myfruit1 = {
-    name:"",
-    description:"",
-    price:"",
-    location:"URL(jbImg/product2.jpg)",
+    name:"Floral Watermelon",
+    description:"The perfect gift for that special someone.",
+    price:"$12.99",
+    location:"jbImg/product2.jpg",
 }
 
  var myfruit2 = {
-    name:"",
-    description:"",
-    price:"",
-    location:"URL(jbImg/product3.jpg)",
+    name:"Portrait Watermelon",
+    description:"The most unique way to memorialize your loved ones.",
+    price:"$25.99",
+    location:"jbImg/product3.jpg",
 }
 
 var myfruit3 = {
-    name:"",
-    description:"",
-    price:"",
-    location:"URL(jbImg/product4.jpg)",
+    name:"Apple of Love",
+    description:"Also the perfect gift for that special someone.",
+    price:"$3.50",
+    location:"jbImg/product4.jpg",
 }
 
 var myfruit4 = {
-    name:"",
-    description:"",
-    price:"",
-    location:"URL(jbImg/product5.jpg)",
+    name:"Watermelon Bouquet",
+    description:"Yet another perfect gift for that special someone.",
+    price:"$34.99",
+    location:"jbImg/product5.jpg",
 }
 
 var myfruit5 = {
-    name:"",
-    description:"",
-    price:"",
-    location:"URL(jbImg/product6.jpg)",
+    name:"Floral Cantaloupe",
+    description:"Nothing more, nothing less.",
+    price:"$6.75",
+    location:"jbImg/product6.jpg",
 }
 
 var myfruit6 = {
-    name:"",
-    description:"",
-    price:"",
-    location:"URL(jbImg/product7.jpg)",
+    name:"Birthday Bundle",
+    description:"Bow before the magnificence of the Birthday Bundle.",
+    price:"92.35",
+    location:"jbImg/product7.jpg",
 }
 
 var myfruit7 = {
-    name:"",
-    description:"",
-    price:"",
-    location:"URL(jbImg/product8.jpg)",
+    name:"Sliced Apple",
+    description:"A sliced apple.",
+    price:"$48.80",
+    location:"jbImg/product8.jpg",
 }
 var fruitArray = [myfruit0, myfruit1, myfruit2, myfruit3, myfruit4, myfruit5, myfruit6, myfruit7]
 
@@ -61,7 +61,11 @@ var fruitArray = [myfruit0, myfruit1, myfruit2, myfruit3, myfruit4, myfruit5, my
 let htmlString = '';
 
 for (let i = 0; i < fruitArray.length; i++) {
-  htmlString += `<div class="card"<p>location: ${fruitArray[i].location}</p><p>Name: ${fruitArray[i].name}</p><p>Decription: ${fruitArray[i].description}</p><p>Price: ${fruitArray[i].price}</p></div>`;
+  htmlString += `<div class="card"<p><img src=${fruitArray[i].location}></p>
+  <p>Name: ${fruitArray[i].name}</p>
+  <p>Decription: ${fruitArray[i].description}</p>
+  <p>Price: ${fruitArray[i].price}</p></div>`;
 }
+var card = document.querySelector('.card-container')
+card.innerHTML = htmlString;
 
-document.querySelector('.card-container').innerHTML(htmlString);
