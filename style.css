@@ -1,26 +1,24 @@
 body {
-    font-family: 'Raleway', sans-serif;
-    background-color: rgb(176, 255, 209);
+  font-family: "Raleway", sans-serif;
+  background-color: rgb(176, 255, 209);
 }
 
 .cont1 {
-    padding-top: 60%;
-    display: flex;
-    
+  padding-top: 60%;
+  display: flex;
 }
 p {
-    font-size: 1em;
-    font-style: bold;
-    padding: 1%;
-
+  font-size: 1em;
+  font-style: bold;
+  padding: 1%;
 }
 h1 {
-font-style: bold;
-text-align: center;
-font-size: 2em;
+  font-style: bold;
+  text-align: center;
+  font-size: 2em;
 }
 
 .card {
-    background-color: rgb(32, 124, 71);    background-color: 
-
+  background-color: rgb(32, 124, 71);
+  background-color: ;
 }
