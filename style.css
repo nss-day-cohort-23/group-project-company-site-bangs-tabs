@@ -1,24 +1,20 @@
-body {
+/*body {
   font-family: "Raleway", sans-serif;
   background-color: rgb(176, 255, 209);
 }
 
 .cont1 {
-  padding-top: 60%;
+  padding-top: 15%;
   display: flex;
 }
-p {
+.cont1 p {
   font-size: 1em;
   font-style: bold;
   padding: 1%;
 }
-h1 {
+.cont h1 {
   font-style: bold;
   text-align: center;
   font-size: 2em;
 }
 
-.card {
-  background-color: rgb(32, 124, 71);
-  background-color: ;
-}

@@ -44,7 +44,7 @@ var myfruit5 = {
 var myfruit6 = {
     name:"Birthday Bundle",
     description:"Bow before the magnificence of the Birthday Bundle.",
-    price:"92.35",
+    price:"$92.35",
     location:"jbImg/product7.jpg",
 }
 
@@ -63,7 +63,7 @@ let htmlString = '';
 for (let i = 0; i < fruitArray.length; i++) {
   htmlString += `<div class="card"<p><img src=${fruitArray[i].location}></p>
   <p>Name: ${fruitArray[i].name}</p>
-  <p>Decription: ${fruitArray[i].description}</p>
+  <p>Description: ${fruitArray[i].description}</p>
   <p>Price: ${fruitArray[i].price}</p></div>`;
 }
 var card = document.querySelector('.card-container')
