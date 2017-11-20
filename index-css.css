@@ -1,5 +1,3 @@
-
-
 .button,
 div.container {
   text-align: center;
@@ -53,7 +51,7 @@ header {
   background-position: 100px;
 }
 
-a.fa  {
+a.fa {
   padding: 5px;
   font-size: large;
   width: 40px;
@@ -87,7 +85,7 @@ a.fa  {
 }
 
 body {
-  background: linear-gradient(rgb(176, 255, 209),rgb(54, 131, 86)) ;
+  background: linear-gradient(rgb(176, 255, 209), rgb(54, 131, 86));
 }
 
 .wrapper h2 {
@@ -126,7 +124,7 @@ img.center {
 }
 ul li {
   display: inline;
-  list-style-type: none; 
+  list-style-type: none;
 }
 /*added style.css here*/
 body {
@@ -151,19 +149,29 @@ body {
 /*added form.css here*/
 body {
   background-color: rgb(176, 255, 209);
-  margin:50px 0px; 
-  padding:0px;
-  text-align:center;
-  font-family: 'Raleway', sans-serif;
-  }
-.inputform {
-  background-color: rgb(29, 134, 73);
-  margin: 25em;
-  padding-top: 325;
-  
+  margin: 50px 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
 }
-  
+.inputform {
+  margin-top: 25em;
+  margin-left: 25em;
+  margin-right: 25em;
+  padding-top: 300;
+}
+.inputform input {
+   width: 300px; 
+}
+.inputform textarea {
+    width: 300px;
+}
+.inputform select {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
 img.resize {
-      max-width:10%;
-      max-height:10%;
-    }
+  max-width: 10%;
+  max-height: 10%;
+}
